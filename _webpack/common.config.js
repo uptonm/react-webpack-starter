@@ -14,14 +14,8 @@ module.exports = {
 			},
 			{
 				test: /\.m?js$/,
+				use: "babel-loader",
 				exclude: join(__dirname, "../node_modules/"),
-				use: {
-					loader: "babel-loader",
-					options: {
-						presets: ["@babel/preset-react", "@babel/preset-env"],
-						plugins: ["@babel/plugin-transform-runtime"]
-					}
-				}
 			},
 			{
 				test: /\.scss$/,

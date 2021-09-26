@@ -1,6 +1,18 @@
 {
+  "version": "0.0.2",
   "name": "react-webpack-starter",
   "license": "MIT",
+  "description": "A simple, opinionated React Webpack starter. Includes support for TypeScript, component &amp; integration tests using Cypress, and TailwindCSS/Sass",
+  "keywords": [
+    "react",
+    "webpack",
+    "typescript",
+    "babel",
+    "sass",
+    "hmr",
+    "starter",
+    "boilerplate"
+  ],
   "devDependencies": {
     "@babel/core": "7.15.5",
     "@babel/plugin-transform-runtime": "7.15.0",
@@ -25,6 +37,7 @@
     "postcss": "^8.3.8",
     "postcss-loader": "6.1.1",
     "postcss-preset-env": "^6.7.0",
+    "react-hot-loader": "^4.13.0",
     "sass": "^1.42.1",
     "sass-loader": "^12.1.0",
     "style-loader": "3.3.0",
@@ -43,12 +56,11 @@
     "start": "webpack serve --open --config _webpack/local.config.js",
     "build:dev": "webpack --config _webpack/dev.config.js",
     "test:components": "cypress open-ct",
-    "test:e2e": "cypress run"
+    "test:e2e": "cypress open"
   },
   "dependencies": {
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "tailwindcss": "^2.2.15"
-  },
-  "version": "0.0.2"
+  }
 }

@@ -1,11 +1,11 @@
 {
-  "supportFile": false,
-  "fixturesFolder": false,
   "video": false,
+  "fixturesFolder": false,
+  "integrationFolder": "src",
+  "watchForFileChanges": true,
+  "testFiles": "**/*.e2e.spec.{ts,tsx}",
   "component": {
     "testFiles": "**/*.component.spec.{ts,tsx}",
     "componentFolder": "src"
-  },
-  "integrationFolder": "src",
-  "testFiles": "**/*.e2e.spec.{ts,tsx}"
+  }
 }
