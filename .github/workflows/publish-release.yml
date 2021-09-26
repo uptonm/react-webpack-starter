@@ -42,7 +42,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           head: master
-          base: dev
+          base: develop
           title: Merge master into dev branch
           body: |
             This PR merges the master branch back into dev.
