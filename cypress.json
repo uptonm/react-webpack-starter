@@ -1,0 +1,11 @@
+{
+  "supportFile": false,
+  "fixturesFolder": false,
+  "video": false,
+  "component": {
+    "testFiles": "**/*.component.spec.{ts,tsx}",
+    "componentFolder": "src"
+  },
+  "integrationFolder": "src",
+  "testFiles": "**/*.e2e.spec.{ts,tsx}"
+}

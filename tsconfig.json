@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "outDir": "dist",
+    "module": "esnext",
+    "target": "es2017",
+    "lib": ["ES6", "DOM", "ESNext.AsyncIterable", "ES2017"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true,
+    "paths": {
+      "@/*": [ "src/*" ],
+      "@styles/*": [ "src/assets/styles/*" ]
+    }
+  },
+  "types": ["cypress"],
+  "exclude": [
+    "dist",
+    "_webpack",
+    "cypress",
+    "node_modules",
+  ]
+}
