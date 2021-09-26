@@ -7,8 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2] - 2021-09-26
+
 ## [0.0.1] - 2021-09-26
 
-[Unreleased]: https://github.com/uptonm/react-webpack-starter/compare/0.0.1...HEAD
+[Unreleased]: https://github.com/uptonm/react-webpack-starter/compare/0.0.2...HEAD
+
+[0.0.2]: https://github.com/uptonm/react-webpack-starter/compare/0.0.1...0.0.2
 
 [0.0.1]: https://github.com/uptonm/react-webpack-starter/compare/6b1a4a4bdd518610c41ba5d86bd99d74a0c14170...0.0.1
