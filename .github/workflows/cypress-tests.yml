@@ -2,10 +2,22 @@ name: Cypress Tests
 on: 
   workflow_dispatch:
   push:
+    paths:
+      - src/*
+      - cypress/*
+      - _webpack/*
+      - _public/*
+      - cypress.json
     branches:
       - master
       - release/*
   pull_request:
+    paths:
+      - src/*
+      - cypress/*
+      - _webpack/*
+      - _public/*
+      - cypress.json
     branches:
       - master
       - release/*
